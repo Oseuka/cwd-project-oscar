@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Font awesome link-->
+        <script src="https://kit.fontawesome.com/b7ef2d0cd4.js" crossorigin="anonymous"></script>
+        
+        <!-- Font awesome cdnjs, working without this link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        
+        <!-- Custom CSS-->
+        <link rel="stylesheet" href="style.css">
+
+        <title>Navbar & Sidenav</title>
+
+    </head>
+<body>
+    <h1 class="center red-text text-lighten-2">Navbar</h1>
+    <div class="divider"></div>
+    <br>
+    <div class="container">
+        <p>The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can align these links to the left or right.
+        </p>
+
+        <h3 class="center red-text text-lighten-2">Right Aligned Links</h3>
+        <p>To right align your navbar links, just add a right class to your < ul > that contains them.</p>
+
+        <nav class="light-blue lighten-2">
+          <div class="container"><div class="nav-wrapper">
+            <a href="https://fontawesome.com/" class=""brand-logo" target="_blank"><i class="fa-solid fa-font-awesome"></i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="https://fontawesome.com/kits" target="_blank">Kits</a></li>
+                <li><a href="https://fontawesome.com/icons" target="_blank">Icons</a></li>
+                <li><a href="https://docs.fontawesome.com/" target="_blank">Docs</a></li>
+              </ul>
+            </ul>
+          </div></div>  
+        </nav>
+        <br>
+
+        <h3 class="center red-text text-lighten-2">Left Aligned Links</h3>
+        <p>To left align your navbar links, just add a left class to your < ul > that contains them.</p>
+
+        <nav class="deep-purple lighten-2">
+          <div class="container"><div class="nav-wrapper">
+            <a href="https://fontawesome.com/" class="brand-logo" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="https://fontawesome.com/kits" target="_blank">Kits</a></li>
+                <li><a href="https://fontawesome.com/icons" target="_blank">Icons</a></li>
+                <li><a href="https://docs.fontawesome.com/" target="_blank">Docs</a></li>
+              </ul>
+            </ul>
+          </div></div>  
+        </nav>
+        <br>
+
+        <h3 class="center red-text text-lighten-2">Centering the Logo</h3>
+        <p>The logo will center itself on medium and down screens, but if you want the logo to always be centered, add the center class to your < a class="brand-logo" >. You will have to make sure yourself that links do not overlap if you use this.</p>
+
+        <nav class="deep-orange lighten-2">
+            <div class="container"><div class="nav-wrapper">
+                <a href="https://fontawesome.com/" class="brand-logo center" target="_blank"><i class="fa-brands fa-docker"></i></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="https://fontawesome.com/kits" target="_blank">Kits</a></li>
+                    <li><a href="https://fontawesome.com/icons" target="_blank">Icons</a></li>
+                    <li><a href="https://docs.fontawesome.com/" target="_blank">Docs</a></li>
+                  </ul>
+                </ul>
+              </div></div>  
+        </nav>
+        <br>
+
+        <h3 class="red-text text-lighten-2">Active Items</h3>
+        <p>Add active class to your li tags to denote the current page.</p>
+        <nav class="pink-orange lighten-3">
+            <div class="container"><div class="nav-wrapper">
+                <a href="https://fontawesome.com/" class="brand-logo center" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="https://fontawesome.com/kits" target="_blank">Kits</a></li>
+                    <li><a href="https://fontawesome.com/icons" target="_blank">Icons</a></li>
+                    <li class="active"><a href="https://docs.fontawesome.com/" target="_blank">Docs</a></li>
+                  </ul>
+                </ul>
+              </div></div>  
+        </nav>
+
+    </div>
+
+    <!--JQUERY CDN-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
